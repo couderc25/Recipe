@@ -1,0 +1,49 @@
+/* contents
+
+    1. Nav
+    2. contents
+    3. recipes
+
+
+
+
+
+
+
+*/
+
+
+/* Nav */
+nav ul{
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color: #3372c5;
+}
+nav a:visited{
+    color: #3372c5
+}
+nav a:hover{
+    color: #072550;
+    /* background-color: #114d9c; */
+    
+}
+
+/* contents */
+.contents ul{
+    list-style-type: none;
+}
+.contents a{
+    text-decoration: none;
+    color: #331b6d;
+}
+.contents a:visited{
+    color: #331b6d;
+}
+
+/* recipes */
+
+.recipes span{
+white-space: pre-line;
+}
