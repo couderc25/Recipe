@@ -30,6 +30,11 @@ nav a:hover{
     /* background-color: #114d9c; */
     
 }
+/* non homepage nav */
+/* .recipepages nav ul li{
+    display: inline;
+    
+} */
 
 /* contents */
 .contents ul{
@@ -69,8 +74,8 @@ white-space: pre-line;
   }
   header h1{
     position: absolute;
-
+    font-size: 350%;
     text-align: left center;
     left: 8%;
-    top: 15%;
+    top: 13%;
   }
