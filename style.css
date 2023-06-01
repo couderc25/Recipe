@@ -79,3 +79,13 @@ white-space: pre-line;
     left: 8%;
     top: 13%;
   }
+  /* to top btn */
+  #toTopBtn {
+    background-color: rgb(183, 104, 202);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: rgb(252, 253, 254);
+    border-color: rgb(183, 104, 202);
+    border-radius: 8px;
+}
