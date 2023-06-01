@@ -3,6 +3,7 @@
     1. Nav
     2. contents
     3. recipes
+    4. banner
 
 
 
@@ -29,6 +30,11 @@ nav a:hover{
     /* background-color: #114d9c; */
     
 }
+/* non homepage nav */
+/* .recipepages nav ul li{
+    display: inline;
+    
+} */
 
 /* contents */
 .contents ul{
@@ -47,3 +53,29 @@ nav a:hover{
 .recipes span{
 white-space: pre-line;
 }
+
+/* banner */
+.bannerimage{
+    position: center;
+    height: 400px;
+    
+    background-image: url(../images/Websiteheader.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+
+  /* header */
+  header{
+    position: relative;
+    text-align: left;
+
+  }
+  header h1{
+    position: absolute;
+    font-size: 350%;
+    text-align: left center;
+    left: 8%;
+    top: 13%;
+  }
