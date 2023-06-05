@@ -1,59 +1,69 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <title>Recipes</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
 
-    <head>
-        <title>Recipes</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script type="text/javascript" src="script.js"></script>
-    </head>
+  <body>
+    <header>
+      <h1>Notes</h1>
+      <div class="bannerimage"></div>
+    </header>
+    <nav class="recipepages">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="breakfast.html">Breakfast</a></li>
+        <li><a href="entres.html">Entres</a></li>
+        <li><a href="sauces.html">Sauces</a></li>
+        <li><a href="treats.html">Treats</a></li>
+        <li><a href="notes.html">Notes</a></li>
+      </ul>
+    </nav>
 
-    <body>
-        <header><h1>Notes</h1>
-            <div class="bannerimage"></div></header>
-        <nav class="recipepages">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="breakfast.html">Breakfast</a></li>
-                <li><a href="entres.html">Entres</a></li>
-                <li><a href="sauces.html">Sauces</a></li>
-                <li><a href="treats.html">Treats</a></li>
-                <li><a href="notes.html">Notes</a></li>
-            </ul>
-        </nav>
-        
-        <main>
-            <div class="contents">
-                <h2>Contents</h2>
-                <ul>
-                    <li><a href="#nt1">Recipe1</a></li>
-                    <li><a href="#nt2">recipe2</a></li>
-                    <li><a href="#nt3">recipe3</a></li>
-                </ul>
-            </div>
-            <div class="recipes">
-                <h2>Recipes</h2>
-                <ul>
-                    <li>
-                        <h3 id="nt1">recipe1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eligendi debitis at necessitatibus deserunt eum magni labore minus, alias praesentium? ipsum dolor sit amet consectetur adipisicing elit. Maiores perferendis sint sapiente molestiae quas, iste odit odio suscipit officia corporis.</p>
-                    </li>
-                    <li>
-                        <h3 id="nt2">recipe2</h3>
-                    </li>
-                    <li>
-                        <h3 id="nt3">recipe3</h3>
-                    </li>
-                </ul>
-            </div>
-
-        </main>
-        <button onclick="jumpToTop()" id="toTopBtn">To Top</button>
-        <footer>
-
-        </footer>    
-
-    </body>
-
+    <main>
+      <div class="contents">
+        <h2>Contents</h2>
+        <ul>
+          <li><a href="#nt1">Pincer Method</a></li>
+          <li><a href="#nt2">Dough Ball Shaping</a></li>
+        </ul>
+      </div>
+      <div class="recipes">
+        <h2>Recipes</h2>
+        <ul>
+          <li>
+            <h3 id="nt1">Pincer Method</h3>
+            <span
+              >With your thumb and forefinger pinch off a big chunk of dough and
+              then tighten your grip to cut through the dough. repeat this 5 or
+              6 times. then fold the dough a few times and repeat. this
+              simulates dough cutting of machines. make sure to occasionally dip
+              your hand in warm water to prevent the dough from sticking to
+              it.</span
+            >
+          </li>
+          <li>
+            <h3 id="nt2">Dough Ball shaping</h3>
+            <span
+              >Take your piece of dough and stretch and fold a quarter of it up
+              and over the top to the other side. Repeat this step as you work
+              your way around the dough until it forms a ball. The flip it over
+              onto a non-floured surface (seam side down). Cup the back of the
+              ball with you hands (pinkies against the counter) and pull towards
+              you dragging the ball across the counter. You want the ball to
+              grip the counter because this way when you pull it will tighten up
+              the ball and add tension to it. Turn the ball slightly and repeat
+              until you have gone around the ball a few times
+            </span>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <button onclick="jumpToTop()" id="toTopBtn">To Top</button>
+    <footer></footer>
+  </body>
 </html>

@@ -46,17 +46,7 @@ nav li:hover a{
 nav a:visited{
     color: #3372c5
 }
-/* nav a:hover{
-    color: #072550;
-    
-  
-    
-} */
-/* non homepage nav */
-/* .recipepages nav ul li{
-    display: inline;
-    
-} */
+
 
 /* contents */
 .contents ul{
@@ -76,7 +66,16 @@ nav a:visited{
 
 .recipes span{
 white-space: pre-line;
+
+
 }
+.recipes h2 {
+    text-align: center;
+}
+.recipes ul{
+    list-style-type: none;
+}
+
 
 /* banner */
 .bannerimage{
@@ -161,4 +160,19 @@ form{
 
 body{
     background-color: #abd9ef;
+}
+.copy{
+    text-align: center;
+
+}
+.copy a{
+    
+    color: #4f6ae6;
+    text-decoration: underline;
+
+}
+.socialmedia a{
+    color: #072550;
+    text-decoration: Underline;
+    font-weight: bold;
 }
