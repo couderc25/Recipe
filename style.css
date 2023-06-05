@@ -138,6 +138,26 @@ table{
 }
 
 
+form{
+    text-align: center;
+    
+}
+.formTitle{
+    text-align: center;
+    text-decoration: underline;
+}
+.form{
+
+    background-color: #fff;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
 
 body{
     background-color: #abd9ef;

@@ -51,20 +51,27 @@
             <td>Fruit Crisp</td>
           </tr>
         </table>
-        <form action="" method="POST" autocomplete="" onsubmit="return FormValidate()">
-          <input type="text" name="recipeName" id="recipeName" placeholder="Recipe Name">
-          <br><br>
-          <select name="category" id="category">
-            <option value="category">Select Category</option>
-            <option value="breakfast">Breakfast</option>
-            <option value="entres">Entres</option>
-            <option value="sauces">Sauces</option>
-            <option value="treats">Treats</option>
-          </select>
-          <br><br>  
-          <textarea name="recipe" id="recipeSugestion" cols="30" rows="10"></textarea>
-          <input type="submit" value="Submit">
-        </form>
+        <br>
+        <h3 class="formTitle">Suggest Recipe?</h3>
+
+        <div class="form">
+          
+          <form action="" method="POST" autocomplete="" onsubmit="return FormValidate()">
+            <input type="text" name="recipeName" id="recipeName" placeholder="Recipe Name">
+            <br><br>
+            <select name="category" id="category">
+              <option value="category">Select Category</option>
+              <option value="breakfast">Breakfast</option>
+              <option value="entres">Entres</option>
+              <option value="sauces">Sauces</option>
+              <option value="treats">Treats</option>
+            </select>
+            <br><br>  
+            <textarea name="recipe" id="recipeSugestion" cols="20" rows="3"></textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
         <br><br>
       </div>
     </main>
