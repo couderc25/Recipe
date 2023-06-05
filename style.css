@@ -18,21 +18,40 @@
 
 nav ul{
     list-style-type: none;
-    
+    text-align: center;
 }
 nav a{
     text-decoration: none;
     color: #3372c5;
     
+    
 }
+nav li{
+    display: inline;
+    margin: 5%;
+    padding: 5px;
+  
+    background-color: #072550;
+    border-radius: 10px;
+}
+nav li:hover {
+    background-color: #3372c5;
+    
+}
+nav li:hover a{
+    color: #072550;
+    background-color: #3372c5;
+}
+
 nav a:visited{
     color: #3372c5
 }
-nav a:hover{
+/* nav a:hover{
     color: #072550;
-    /* background-color: #114d9c; */
     
-}
+  
+    
+} */
 /* non homepage nav */
 /* .recipepages nav ul li{
     display: inline;
@@ -45,12 +64,14 @@ nav a:hover{
 }
 .contents a{
     text-decoration: none;
-    color: #301f58;
+    color: #3372c5;
 }
 .contents a:visited{
-    color: #331b6d;
+    color: #3372c5;
 }
-
+.contents a:hover{
+    color: #072550;
+}
 /* recipes */
 
 .recipes span{
@@ -84,13 +105,17 @@ white-space: pre-line;
   }
   /* to top btn */
   #toTopBtn {
-    background-color: rgb(183, 104, 202);
+    background-color: #072550;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    color: rgb(252, 253, 254);
-    border-color: rgb(183, 104, 202);
+    color: #3372c5;
+    border-color: #072550;
     border-radius: 8px;
+}
+#toTopBtn:hover{
+    color: #072550;
+    background-color: #3372c5;
 }
 
 
