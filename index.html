@@ -10,11 +10,10 @@
   </head>
 
   <body>
-    
     <header>
-    <h1>Home</h1>
-    
-    <div class="bannerimage"></div>
+      <h1>Home</h1>
+
+      <div class="bannerimage"></div>
     </header>
     <nav>
       <ul>
@@ -29,7 +28,6 @@
 
     <main>
       <div class="topRecipes">
-
         <h3 class="table_title">Recipes of the Week</h3>
         <table>
           <tr>
@@ -52,9 +50,23 @@
             <td>Treats</td>
             <td>Fruit Crisp</td>
           </tr>
-        
         </table>
-      </>
+        <form action="" method="POST" autocomplete="" onsubmit="return FormValidate()">
+          <input type="text" name="recipeName" id="recipeName" placeholder="Recipe Name">
+          <br><br>
+          <select name="category" id="category">
+            <option value="category">Select Category</option>
+            <option value="breakfast">Breakfast</option>
+            <option value="entres">Entres</option>
+            <option value="sauces">Sauces</option>
+            <option value="treats">Treats</option>
+          </select>
+          <br><br>  
+          <textarea name="recipe" id="recipeSugestion" cols="30" rows="10"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+        <br><br>
+      </div>
     </main>
     <footer></footer>
   </body>
