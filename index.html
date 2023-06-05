@@ -10,11 +10,12 @@
   </head>
 
   <body>
-    
     <header>
-    <h1>Home</h1>
-    
-    <div class="bannerimage"></div>
+      <h1>Home</h1>
+
+      <div class="bannerimage"></div>
+      
+      
     </header>
     <nav>
       <ul>
@@ -27,7 +28,64 @@
       </ul>
     </nav>
 
-    <main></main>
-    <footer></footer>
+    <main>
+      <div class="topRecipes">
+        <h3 class="table_title">Recipes of the Week</h3>
+        <table>
+          <tr>
+            <th>Category</th>
+            <th>Recipe</th>
+          </tr>
+          <tr>
+            <td>Breakfast</td>
+            <td>Crepes</td>
+          </tr>
+          <tr>
+            <td>Entres</td>
+            <td>Sourdough Pizza</td>
+          </tr>
+          <tr>
+            <td>Sauces</td>
+            <td>Sweet and Spice Sesame Sauce</td>
+          </tr>
+          <tr>
+            <td>Treats</td>
+            <td>Fruit Crisp</td>
+          </tr>
+        </table>
+        <br>
+        <h3 class="formTitle">Suggest Recipe?</h3>
+
+        <div class="form">
+          
+          <form action="" method="POST" autocomplete="" onsubmit="return FormValidate()">
+            <input type="text" name="recipeName" id="recipeName" placeholder="Recipe Name">
+            <br><br>
+            <select name="category" id="category">
+              <option value="category">Select Category</option>
+              <option value="breakfast">Breakfast</option>
+              <option value="entres">Entres</option>
+              <option value="sauces">Sauces</option>
+              <option value="treats">Treats</option>
+            </select>
+            <br><br>  
+            <textarea name="recipe" id="recipeSugestion" cols="20" rows="3"></textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        <br><br>
+      </div>
+    </main>
+    <footer>
+      
+      <div class="copy">Copyright &copy; 
+        <a href="mailto:couderc@wwu.edu">couderc@wwu.edu</a><div class="socialmedia"><a href="">Instagram</a></div>
+        <br>
+        <script>
+        var date = document.lastModified;document.write(date);
+      </script>
+      </div>
+    </footer>
   </body>
 </html>
